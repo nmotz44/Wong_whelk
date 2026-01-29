@@ -5,8 +5,8 @@
 ## load data and packages
 # packages
 library(tidyverse)
-library(IsoPath)
 library(simmr)
+source('format_simmr_data.R')
 
 # load data
 prey = read.csv("Data/kmeans_output.csv") |>
